@@ -5,7 +5,7 @@
 /* Step 2 - Variables */
 const fullName = 'Liam Foushee';
 let currentYear = '2024';
-let profilePicture = '/Users/liamfoushee/Desktop/cse121b/w02-task/images/IMG_1182.JPG';
+let profilePicture = '/Users/liamfoushee/Desktop/Programming/cse121b/w02-task/images/IMG_1182.JPG';
 var singleFavoriteFood = "Burgers";
 
 
@@ -30,7 +30,7 @@ Element.setAttribute()
 
 /* Step 5 - Array */
 
-var favFood = ['taco', 'burrito','alfredo', 'pizza']
+var favFood = ['taco', 'burrito', 'alfredo', 'pizza']
 foodElement.innerHTML = "My favorite foods: " + favFood.join(", ");
 favFood.push(singleFavoriteFood);
 foodElement.innerHTML += `<br>${favFood.join(", ")}`;
