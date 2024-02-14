@@ -16,7 +16,6 @@ const yearElement = document.getElementById('year');
 const imageElement = document.querySelector('img');
 
 
-
 /* Step 4 - Adding Content */
 yearElement.innerHTML = currentYear;
 nameElement.innerHTML = `<strong>${fullName}</strong>`;
