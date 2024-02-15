@@ -47,7 +47,7 @@ document.querySelector("#photo").src = myProfile.photo;
 myProfile.favoriteFoods.forEach(food => {
     let li = document.createElement('li');
     li.textContent = food;
-    document.querySelector('#favoriteFoods').appendChild(li);
+    document.querySelector('#favorite-foods').appendChild(li);
 });
 
 /* Hobbies List */
@@ -57,6 +57,7 @@ myProfile.hobbies.forEach(hobby => {
     document.querySelector('#hobbies').appendChild(li);
 });
 
+/* Places Lived DataList */
 /* Places Lived DataList */
 var dlElement = document.querySelector("#places-lived");
 
@@ -68,4 +69,5 @@ myProfile.placesLived.forEach(place => {
     dlElement.appendChild(dtElement);
     dlElement.appendChild(ddElement);
 });
+
 
